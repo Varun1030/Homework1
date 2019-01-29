@@ -10,11 +10,6 @@ import numpy as np
 from pprint import pprint
 
 
-#Import the dataset
-##f=open("dt-data.txt","r")
-##if f.mode=="r":
-##    dataset=f.read()
-##    print (dataset)
 
 dataset=pd.read_csv('dt-data2.csv',names=['Occupied','Price','Music','Location','VIP','Favorite Beer','Enjoy'])
 print(dataset)
